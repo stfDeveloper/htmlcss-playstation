@@ -63,3 +63,54 @@
     width: 100%;
     border-radius: 20px;
 }
+.ps4 img{
+    width: 100%; 
+}
+.ps4_container{
+    background-color: rgb(167, 167, 167);
+}
+.ps4_container p{
+    color: black;
+}
+.ps4_container img{
+    width: 100%;
+    height: 100%;
+}
+.ps_plus_button{
+    opacity: 0.4;
+}
+.ps_plus_button span{
+    color: blue;
+}
+.sconti img{
+    width: 100%;
+    padding: 10px;
+}
+.container_now{
+    background-color:rgb(0, 0, 71) ;
+}
+.container_now{
+    color: white;
+}
+.container_now img{
+    width: 100%;
+    height: 100%;
+
+}
+.social img{
+    width: 100%;
+}
+footer{
+    background-color: rgb(72, 72, 204);
+    color: white;
+}
+.footer img{
+    width: 100%;
+}
+.globe img{
+    width: 20%;
+}
+.links p a{
+    text-decoration: none;
+    color:white
+}
