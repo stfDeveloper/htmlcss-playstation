@@ -12,6 +12,26 @@
     text-decoration: none;
     color: black;
 }
+.navbar .dropdown-toggle::after {
+position: relative;
+top: 3px;
+font-size: 1.1rem;
+}
+.navbar a.show::after {
+position: static;
+}
+.navbar .dropdown {
+position: static;
+}
+.navbar .dropdown-menu {
+padding: 20px;
+top: 65px;
+width: 100%;
+border: 0;
+}
+.navbar .dropdown-menu li {
+display: inline-block;
+}
 .jumbo{
     width: 100%;
     background-size: cover;
@@ -34,7 +54,7 @@
 }
 .btn:hover{
     border: solid 1px white;
-    outline: 1px solid red;
+    outline: 1px solid black;
 }
 .preview_info .btn{
     margin-top: 40px;
@@ -48,13 +68,17 @@
 
 .games_section img:hover{
     margin-top: 5px;
-    border: solid 1px white;
-    outline: 1px solid red;
-
 }
 .ps_5{
     width: 100px;
 }
+.op{
+    opacity: 0.4;
+}
+.op:hover{
+    opacity: 1;
+}
+
 .border_ps{
     width: 200px;
     border-bottom: 3px solid greenyellow;
