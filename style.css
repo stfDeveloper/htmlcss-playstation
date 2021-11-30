@@ -37,7 +37,7 @@ display: inline-block;
     color: white;
 }
 .content_jumbo{
-    padding-top: 240px;
+    padding-top: 340px;
     padding-left: 100px;
     padding-bottom: 50px;
 }
@@ -46,7 +46,7 @@ display: inline-block;
     color: white;
 }
 .content_jumbo_2{
-    padding-top: 240px;
+    padding-top: 270px;
     padding-left: 100px;
     padding-bottom: 50px;
 }
@@ -126,12 +126,6 @@ display: inline-block;
 footer{
     background-color: rgb(72, 72, 204);
     color: white;
-}
-.footer img{
-    width: 100%;
-}
-.globe img{
-    width: 20%;
 }
 .links p a{
     text-decoration: none;
